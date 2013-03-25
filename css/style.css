@@ -9,6 +9,21 @@
 /*  Common
 -------------------------*/
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
 /*  Grid
 -------------------------*/
 
@@ -21,13 +36,22 @@
 
 /* header */
 header {
-	min-height: 108px;
+	position: relative;
+	min-height: 54px;
 	border-bottom: 1px solid #666;
 	margin-bottom: 18px;
 	background: #212121;
 }
 
- .navigation {
+
+#logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	color: #fff;
+}
+
+.navigation {
 
 	float: right;
 	margin-right: 10px;
@@ -44,7 +68,14 @@ header {
 	color: #fff;
 }
 
-
+/* content */
+.content {
+	padding: 0  20px;
+}
+.image.profile {
+	float: right;
+	margin: 0 0 10px 20px; 
+}
 
 /*  Fonts
 -------------------------*/
