@@ -68,6 +68,10 @@ header {
 	color: #fff;
 }
 
+.navigation .current {
+	color: #e01;
+}
+
 /* content */
 .content {
 	padding: 0  20px;
