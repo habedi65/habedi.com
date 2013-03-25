@@ -1,0 +1,53 @@
+/*
+|
+| Css for habedi.com
+|-----------------------
+|
+*/
+
+
+/*  Common
+-------------------------*/
+
+/*  Grid
+-------------------------*/
+
+.wrapper {
+
+	max-width: 960px;
+	margin: 0 auto;
+	background: #ddd;
+}
+
+/* header */
+header {
+	min-height: 108px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 18px;
+	background: #212121;
+}
+
+ .navigation {
+
+	float: right;
+	margin-right: 10px;
+	list-style-type: none;
+}
+
+.navigation li {
+
+	display:inline-block;
+}
+
+.navigation a {
+
+	color: #fff;
+}
+
+
+
+/*  Fonts
+-------------------------*/
+
+/*  colors
+-------------------------*/
